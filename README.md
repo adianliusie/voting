@@ -45,7 +45,7 @@ git clone https://github.com/adianliusie/Bot-Set-Up
 
 Then move the `run` file to be easily accessible from the home directory
 ``` 
-mv voting_bot/run ~
+mv voting/run ~
 ```
 
 Then try running the script
