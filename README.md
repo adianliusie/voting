@@ -40,7 +40,7 @@ first download the code base by cloning this repo
 
 ``` 
 cd ~/Downloads
-git clone https://github.com/adianliusie/Bot-Set-Up
+git clone https://github.com/adianliusie/voting
 ```
 
 Then move the `run` file to be easily accessible from the home directory
