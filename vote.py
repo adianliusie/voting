@@ -14,7 +14,7 @@ def vote():
     driver = webdriver.Chrome()
 
     #driver.get('https://www.10best.com/awards/travel/best-wellness-retreat/eupepsia-bland-va/');
-    driver.get('https://www.10best.com/awards/travel/best-health-wellness-resort/eupepsia-bland-va/')
+    driver.get('https://bit.ly/3zNn4cf')
     time.sleep(3)
     driver.find_element_by_id("awardVoteButton").click()
     time.sleep(3)
