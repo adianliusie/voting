@@ -15,15 +15,19 @@ def vote():
 
     #driver.get('https://www.10best.com/awards/travel/best-wellness-retreat/eupepsia-bland-va/');
     driver.get('https://www.10best.com/awards/travel/best-health-wellness-resort/eupepsia-bland-va/')
-    time.sleep(2)
+    time.sleep(3)
     driver.find_element_by_id("awardVoteButton").click()
-    time.sleep(2)
+    time.sleep(3)
     driver.quit()
 
 def vote_script():
     count = 0
     while count < 130:
-        vote()
+        try:
+           vote()
+        except:
+           time.sleep(2)
+           vote()
         count = count+1
         print(count)
 
