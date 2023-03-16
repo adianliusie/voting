@@ -26,11 +26,11 @@ pip install numpy
 
 ### Downloading chromedriver
 
-Download the [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=111.0.5563.64/) used by selenium. Again, ensure the compatible version is used. When the file is downloaded, open the .zip file on finder to unzip the file, then open terminal and run the following command
+Download the [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=111.0.5563.64/) used by selenium. If you're computer uses the apple M1 chip, then download the driver associated with chromedriver_mac64.zip. Open the .zip file on finder to unzip the file, then open terminal and run the following command
 
 ```
 cd ~/Downloads
-sudo mv chromedriver /usr/local/bin 
+sudo mv chromedriver_mac64/chromedriver /usr/local/bin 
 ```
 
 you will have to type the password on terminal (note characters won't show, but click enter when done anyways)
