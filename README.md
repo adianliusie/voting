@@ -26,7 +26,7 @@ pip install numpy
 
 ### Downloading chromedriver
 
-Download the [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=104.0.5112.79/) used by selenium. Again, ensure the compatible version is used. When the file is downloaded, open the .zip file on finder to unzip the file, then open terminal and run the following command
+Download the [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=111.0.5563.64/) used by selenium. Again, ensure the compatible version is used. When the file is downloaded, open the .zip file on finder to unzip the file, then open terminal and run the following command
 
 ```
 cd ~/Downloads
