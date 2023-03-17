@@ -21,7 +21,7 @@ def vote():
 
 def vote_script():
     count = 0
-    while count < 260:
+    while count < 90:
         try:
            vote()
         except:
